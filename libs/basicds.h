@@ -5,12 +5,13 @@
 #ifndef BASICDS_H
 #define BASICDS_H
 
+#include <iostream>
+#include <string>
 
-
-class basicds {
-
-};
-
+namespace mylibrary {
+  void helloWorld(const std::string &message);
+  int addTwoNumbers(int a, int b);
+}
 
 
 #endif //BASICDS_H

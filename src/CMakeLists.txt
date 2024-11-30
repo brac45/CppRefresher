@@ -1,3 +1,3 @@
-add_executable(${PROJECT_NAME} main.cpp
-        ../libs/basicds.cpp
-        ../libs/basicds.h)
+add_executable(${PROJECT_NAME} main.cpp)
+
+target_link_libraries(${PROJECT_NAME} mylibs)

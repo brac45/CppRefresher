@@ -1,6 +1,10 @@
 #include <iostream>
+#include "basicds.h"
 
 int main() {
-  std::cout << "Hello, World!" << std::endl;
+  std::string hellomsg = "Hello, World!";
+
+  mylibrary::helloWorld(hellomsg);
+
   return 0;
 }
