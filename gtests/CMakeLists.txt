@@ -12,6 +12,7 @@ enable_testing()
 add_executable(
         my_tests
         hello_gtest.cpp
+        linkedlist_test.cpp
 )
 target_link_libraries(
         my_tests

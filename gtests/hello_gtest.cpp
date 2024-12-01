@@ -8,4 +8,3 @@ TEST(HelloTest, BasicAssertions) {
   // Expect equality.
   EXPECT_EQ(mylibrary::addTwoNumbers(5, 24), 29);
 }
-
